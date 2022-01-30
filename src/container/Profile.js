@@ -14,7 +14,7 @@ function Profile() {
                <a href='#'><span>Testimonial</span></a>
                <a href='#contact'><span>Contact Me</span></a>
         </header>
-        <div className='container'>
+        <div className='container reveal'>
             <div className='details'>
                 <div className="tags">
                     <a href="#" className='fa fa-facebook'></a>
