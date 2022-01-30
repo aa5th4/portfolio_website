@@ -1,0 +1,129 @@
+
+
+.hdr {
+    font-size: 25px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 23px;
+    display: flex;
+    justify-content: space-evenly;
+    z-index: 1;
+}
+
+.container{
+    background-image: url('img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5vh;
+    
+    
+}
+
+.infot{
+    color: black;
+    text-align: center;
+    padding-left: 43px;
+}
+.details{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    flex-direction: column;
+    margin-top: 126px;
+    align-items: center;
+
+}
+.tags{
+    display: flex;
+    font-size: 22px;
+    text-decoration: none;
+    gap: 5px;
+}
+a{
+    text-decoration: none;
+}
+.name{
+    font-size: 32px;
+    font-family: cursive;
+}
+.work{
+    font-size: 25px;
+    font-family: poppins;
+    color: black;
+}
+
+.btn{
+    display: flex;
+    gap: 20px;
+}
+.btnss{
+    font-size: 22px;
+    border-radius: 60px;
+    background-color: #4c4c6a;
+    align-items: center;
+    padding: 20px;
+    color: #efeeec;
+    transition: transform .5s ease;
+}
+.btnss:hover{
+    background-color: rgb(143, 106, 158);
+    transform: scale(1.2);
+}
+.photo{
+    border-radius: 50%;
+    height: 321px;
+    width: 338px;
+    margin-top: 97px;
+    margin-left: 17%;
+    background-color: #e5e8e7ad;
+}
+
+.photo img{
+    border-radius: 50%;
+    height: 321px;
+    width: 338px;
+    margin-top: -1vh;
+    margin-left: 0vh;
+    background-color: #e5e8e7ad;
+    background-size: contain;
+}
+
+
+@media only screen and (max-width: 900px) {
+    .hdr {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .photo{
+        border-radius: 50%;
+        height: 321px;
+        width: 338px;
+        margin-top: 97px;
+        margin-left: 0%;
+        background-color: #e5e8e7ad;
+    }
+
+    .photo img{
+        border-radius: 50%;
+        height: 320px;
+        width: 330px;
+        margin-top: -1vh;
+        margin-left: 0vh;
+        background-color: #e5e8e7ad;
+        background-size: contain;
+    }
+    
+    
+}
