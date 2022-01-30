@@ -45,8 +45,8 @@ function Resumepage() {
                         
                         <div><h4>Btech in CSE (IIT JAMMU)</h4>
                             <li>7.02 CGPA</li></div>
-                        <div><h4>Btech in CSE (IIT JAMMU)</h4>
-                            <li>7.02 CGPA</li></div>
+                        <div><h4>12th standard</h4>
+                            <li>7.9%</li></div>
                             <div><h4>10th standard (Vidya Anand Public School)</h4>
                             <li>9.6 CGPA</li></div>
                         
